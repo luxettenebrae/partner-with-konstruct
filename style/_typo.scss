@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700;800&display=swap");
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+h1 {
+  /* headers/H1(large) */
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* headers/H1(large) */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5.709px;
+}
+
+h2 {
+  /*  headers/H2(large) */
+  color: var(--secondary, #48555b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* headers/H2(large) */
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+  letter-spacing: 0.15px;
+}
+
+.fourth-section h2 {
+  color: var(--primary, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* headers/H2_big(large) */
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.846px;
+}
+h3 {
+  /* headers/H3(large) */
+  color: #48555b;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* headers/H3(large) */
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.306px;
+}
+
+h4 {
+  /* headers/H4(large) */
+  color: var(--secondary, #48555b);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* headers/H4(large) */
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.427px;
+}
+
+h5 {
+  /* headers/H5(large) */
+  color: #48555b;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* headers/H5(large) */
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.17px;
+}
+
+h6 {
+  /*  headers/H6(large) */
+  color: #fff;
+  text-align: center;
+
+  /* headers/H6(large) */
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.navbar_links a {
+  text-decoration: none;
+  list-style: none;
+  color: #48555b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.091px;
+}
+
+.body {
+  color: #48555b;
+  /* body/body(large) */
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 176.923% */
+  letter-spacing: 0.188px;
+}
+
+.button_text {
+  color: #fff;
+  text-align: center;
+
+  /* button/button(large) */
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.39px;
+}
+
+/* spans */
+
+.colortext-blue {
+  color: #16ace8;
+}
+
+input {
+  color: #48555b;
+  /* placeholder/placeholder(large) */
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.07px;
+}
+
+.body_small {
+  color: #fff;
+  /* body/body_small(large) */
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px; /* 172.727% */
+  letter-spacing: 0.2px;
+}
+
+.footer-link li {
+  color: #fff;
+
+  /* link/link_small(large) */
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.091px;
+}
