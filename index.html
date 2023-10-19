@@ -10,11 +10,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Document</title><!-- Напиши Название -->
   </head>
   <body>
     <header>
-      <div class="img">
+      <div class="img"><!-- class="first-screen" -->
         <div class="logo">
           <a href="">
             <img src="img/projeco-logo.svg" alt="" />
@@ -27,11 +27,11 @@
       </div>
       <div class="navbar">
         <div class="navbar__wrapper container">
-          <div class="navbar_logo">
+          <div class="navbar_logo"><!-- Сделать кликабельным -->
             <img src="img/projeco-logo-black.svg" alt="" />
           </div>
           <div class="navbar_links">
-            <a href="">
+            <a href="#!"><!-- Обрати внимание "#!" заместо пустоты в href -->
               <li>HOME</li>
             </a>
             <a href="">
@@ -56,10 +56,10 @@
         <img src="img/Line.svg" alt="" />
       </div>
       <div class="content-card">
-        <div class="first-section_content">
+        <div class="first-section_content"> 
           <h5>
             Founded in 2011 by John Mathew Smith,<br />
-            <span class="colortext-blue">Konstruct</span> has become the number
+            <span class="colortext-blue">Konstruct</span> has become the number <!-- Такие классы лучше подписывать text-color-{Любой цвет} -->
             one<br />
             construction management firm
           </h5>
@@ -71,7 +71,7 @@
             laoreet dolore magna aliquam erat.
           </p>
         </div>
-        <div class="first-section_cards">
+        <div class="first-section_cards"><!-- По БЭМ идет два "__" когда указываешь название элемента -->
           <a href=""> <img src="img/plan.svg" alt="" /></a>
           <a href=""> <img src="img/manage.svg" alt="" /></a>
           <a href=""> <img src="img/deliver.svg" alt="" /></a>
@@ -90,10 +90,10 @@
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
         </p>
         <button>
-          <div class="button_text">ALL SERVICES</div>
+          <div class="button_text">ALL SERVICES</div><!-- Не нужно делать отдельный класс для текста внутри кнопки, пропиши свойства для текста в теге <button> -->
         </button>
       </div>
-      <div class="second-section_wrapper">
+      <div class="second-section_wrapper"><!-- Оболочка для карт "cards" -->
         <div class="second-section_card">
           <img src="img/Bitmap(1).svg" alt="" />
           <h4>
@@ -135,14 +135,15 @@
         </div>
       </div>
     </div>
-    <div class="third-section">
-      <h2>
-        Want to build <br />
-        something amazing?
-      </h2>
-      <button>
+    <div class="third-section"> 
+        <h2><!-- Обязательно делаешь оболочку для контента "wrapper" -->
+          Want to build <br />
+          something amazing?
+        </h2>
+        <button>
         <div class="button_text">GET IN TOUCH</div>
-      </button>
+        </button>
+    </div>
     </div>
     <div class="fourth-section">
       <div class="fourth-section_content">
@@ -155,8 +156,8 @@
         </button>
       </div>
     </div>
-    <footer>
-      <div class="footer_wrapper">
+    <footer><!-- Добавь класс контейнер и перенеси в css фон именно на тег <footer> , а не на его wrapper -->
+      <div class="footer_wrapper"><!-- Вопросики к названиям, не передают логический смысл -->
         <div class="footer-logo">
           <p class="body_small">COMPANY</p>
           <img src="img/projeco-logo(2).svg" alt="" />
@@ -167,7 +168,7 @@
             aliquam erat.
           </p>
         </div>
-        <div class="footer-link">
+        <div class="footer-link"><!-- Элемент блока подписываем через "__", а не через "-" -->
           <p class="body_small">LINKS</p>
           <ul>
             <a href="">
@@ -199,7 +200,7 @@
               <li>CAREERS</li>
             </a>
           </ul>
-        </div>
+        </div><!-- Для оболочки из ссылок "link" используем "links" -->
         <div class="footer-link">
           <ul>
             <a href="">
@@ -215,17 +216,17 @@
         </div>
         <div class="contact">
           <p class="body_small">CONTACT US</p>
-        <div class="contact-number">
-          <p class="body_small">
-            213 Baker Street <br />
-            Oriel City Kounty <br />
-            7000 KNW,<br />Kountry Name
-          </p>
-          <p class="body_small">+23 994 233 4022</p>
-        </div>
+          <div class="contact-number"><!-- Содержимое не соответствует названию, в названии number(номер), внутри блока и номер и посторонний от него текст -->
+            <p class="body_small">
+              213 Baker Street <br />
+              Oriel City Kounty <br />
+              7000 KNW,<br />Kountry Name
+            </p>
+            <p class="body_small">+23 994 233 4022</p>
+          </div>
           <p class="body_small">info@konstruct.com</p>
         </div>
-        <div class="link-img">
+        <div class="link-img"><!-- Блок с контактами на соц-сети должен вести на соц сети, добавь ссылки -->
           <img src="img/Object.svg" alt="" />
           <img src="img/Object(1).svg" alt="" />
           <img src="img/Object(2).svg" alt="" />
@@ -233,7 +234,8 @@
       </div>
     </footer>
     <div class="copyright">
-      <p class="body_small">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</div>
+      <div> <p class="body_small">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p></div>
+     
     </div>
   </body>
 </html>
